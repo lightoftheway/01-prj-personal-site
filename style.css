@@ -12,9 +12,9 @@ body {
 header {
     background-color: #111; /* Black header fallback */
     color: #fff;
-    padding: 60px 0 40px 0;
+    padding: 140px 0 80px 0; /* Make header taller to show more background image */
     text-align: center;
-    background-image: url('img/hero-bg.jpeg'); /* Add hero background image */
+    background-image: url("img/hero-bg.jpeg"); /* Add hero background image */
     background-size: cover; /* Make image cover the header */
     background-position: center; /* Center the image */
     position: relative;
@@ -117,6 +117,14 @@ header p {
 
 .project-list {
     margin-top: 20px;
+}
+
+/* Add style for the placeholder italic text */
+.project-placeholder {
+    font-style: italic;
+    color: #888;
+    margin-top: 30px;
+    font-size: 1.1em;
 }
 
 .project-item {
