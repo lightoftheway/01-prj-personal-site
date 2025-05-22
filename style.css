@@ -12,7 +12,7 @@ body {
 header {
     background-color: #111; /* Black header fallback */
     color: #fff;
-    padding: 140px 0 80px 0; /* Make header taller to show more background image */
+    padding: 180px 0 100px 0; /* Make header even taller to show more background image */
     text-align: center;
     background-image: url("img/hero-bg.jpeg"); /* Add hero background image */
     background-size: cover; /* Make image cover the header */
